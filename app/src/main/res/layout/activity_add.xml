@@ -43,14 +43,14 @@
 
                 <ImageView
                     android:id="@+id/Imgv2"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:scaleType="centerCrop"
                     android:src="@drawable/ic_launcher_foreground"
                     android:background="#E0E0E0"
                     android:clickable="true"
                     android:focusable="true"
-                    android:contentDescription="Chọn ảnh đại diện" />
+                    android:contentDescription="Chọn ảnh đại diện"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"/>
 
                 <TextView
                     android:layout_width="wrap_content"
