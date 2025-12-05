@@ -94,9 +94,10 @@
 
     <ImageView
         android:id="@+id/Imgv3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"/>
 
     <Button
         android:id="@+id/btn_edit"
