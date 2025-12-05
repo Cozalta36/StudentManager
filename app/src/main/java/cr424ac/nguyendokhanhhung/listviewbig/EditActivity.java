@@ -218,7 +218,7 @@ public class EditActivity extends AppCompatActivity {
         String khoa = spinner1.getSelectedItem().toString();
 
         if (hoten.isEmpty() || masv.isEmpty() || sdt.isEmpty() || email.isEmpty() || ngaysinh.isEmpty()) {
-            Toast.makeText(this, "Vui lòng điền đầy đủ thông tin!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vui lòng điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -228,7 +228,7 @@ public class EditActivity extends AppCompatActivity {
         if (selectedRadioButton != null) {
             gt = selectedRadioButton.getText().toString();
         } else {
-            Toast.makeText(this, "Vui lòng chọn giới tính!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vui lòng chọn giới tính", Toast.LENGTH_SHORT).show();
             return;
         }
 

@@ -217,12 +217,6 @@ public class AddActivity extends AppCompatActivity {
             Pt_mail.requestFocus();
             return;
         }
-        if (ngaysinh.isEmpty()) {
-            Pt_date.setError("Vui lòng chọn ngày sinh");
-            Pt_date.requestFocus();
-            Toast.makeText(this, "Vui lòng chọn ngày sinh", Toast.LENGTH_SHORT).show();
-            return;
-        }
         int selectedGenderId = rgGT.getCheckedRadioButtonId();
         RadioButton selectedRadioButton = findViewById(selectedGenderId);
         String gt = "";
