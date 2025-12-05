@@ -114,7 +114,6 @@ public class DepartmentActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == 300 && resultCode == RESULT_OK) {
-            // Department was deleted or updated
             refreshDepartmentList();
         }
     }
